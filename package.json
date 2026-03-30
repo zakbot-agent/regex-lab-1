@@ -1,0 +1,25 @@
+{
+  "name": "regex-lab",
+  "version": "1.0.0",
+  "description": "Regex tester with explanations — CLI + Web, zero dependencies",
+  "main": "dist/index.js",
+  "bin": {
+    "regex-lab": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "regex",
+    "regexp",
+    "tester",
+    "explainer",
+    "cli"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.37"
+  }
+}
